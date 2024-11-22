@@ -1,0 +1,56 @@
+* {
+    font-family: 'First Coffee';
+    user-select: none;
+}
+
+body {
+    background-color: #FDAAAF;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+    color: white;
+}
+
+#bingoBoard {
+    height: 75vh;
+    aspect-ratio: 1;
+    background-color: white;
+    border: black solid 5px;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-rows: 20% 20% 20% 20% 20%;
+}
+
+.bingoSquare {
+    border: gray 2px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bingoText {
+    text-align: center;
+}
+
+.active {
+    background-color: greenyellow;
+}
+
+.utilBtn {
+    background-color: white;
+    margin-top: 1vh;
+    font-size: 20px;
+}
+
+@font-face {
+    font-family: "First Coffee";
+    src: url("/font/First Coffee.otf") format("otf"),
+        url("/font/First Coffee.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
