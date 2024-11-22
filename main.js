@@ -1,4 +1,4 @@
-var promptList = [
+const promptList = [
     "Shibou's metal music",
     "Lurker appears",
     "TastyPi maths",
@@ -24,7 +24,7 @@ var promptList = [
     "Flustered Cris",
     "Bullied Cris"
 ];
-var freeList = [
+const freeList = [
     "Therapy",
     "Jocussy"
 ];
