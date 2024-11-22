@@ -49,8 +49,8 @@ h1 {
 
 @font-face {
     font-family: "First Coffee";
-    src: url("/font/First Coffee.otf") format("otf"),
-        url("/font/First Coffee.ttf") format("truetype");
+    src: url("font/First Coffee.otf") format("otf"),
+        url("font/First Coffee.ttf") format("truetype");
     font-weight: normal;
     font-style: normal;
 }
