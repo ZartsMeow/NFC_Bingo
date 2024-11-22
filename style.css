@@ -15,8 +15,8 @@ h1 {
 }
 
 #bingoBoard {
-    height: 75vh;
-    aspect-ratio: 1;
+    height: min(75vh, 75vw);
+    width: min(75vh, 75vw);
     background-color: white;
     border: black solid 5px;
     margin-left: auto;
