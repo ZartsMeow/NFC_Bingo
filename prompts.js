@@ -22,7 +22,13 @@ const promptList = [
     "Multi convo chat",
     "No romance Meowz",
     "Flustered Cris",
-    "Bullied Cris"
+    "Bullied Cris",
+    "Mage boy coding/game dev progress",
+    "Anonum mentions Project Moon",
+    "\"Grumble\"",
+    "\"I love my wife\"",
+    "Anonum with science/math",
+    
 ];
 const freeList = [
     "Therapy",
