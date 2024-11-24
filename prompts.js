@@ -28,6 +28,10 @@ const promptList = [
     "\"Grumble\"",
     "\"I love my wife\"",
     "Anonum with science/math",
+    "Jerry Six Simp",
+    "Jerry xkcd comic",
+    
+    
     
 ];
 const freeList = [
