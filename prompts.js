@@ -30,9 +30,6 @@ const promptList = [
     "Anonum with science/math",
     "Jerry Six Simp",
     "Jerry xkcd comic",
-    
-    
-    
 ];
 const freeList = [
     "Therapy",

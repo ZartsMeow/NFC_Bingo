@@ -3,7 +3,8 @@
     <head>
         <title>NFC Bingo</title>
         <link rel="icon" type="image/png" href="img/NFC_Bingo_icon.png"/>
-        <link rel="stylesheet" href="style.css"/>
+        <link rel="stylesheet" href="style/style.css"/>
+        <link id="styleTheme" rel="stylesheet" href="style/nwero.css"/>
         <meta
           name="description"
           content="The Neuroverse Fanfic Community Bingo! For all your bingo-ing needs!"
@@ -15,6 +16,7 @@
         <div id="bingoBoard"></div>
         <button class="utilBtn" onclick="clearBoard()">Clear</button>
         <button class="utilBtn" onclick="regenerateBoard()">Regenerate</button>
+        <div id="themeToggleBtn" onclick="toggleTheme()"></div>
     </body>
     <script src="prompts.js"></script>
     <script src="main.js"></script>

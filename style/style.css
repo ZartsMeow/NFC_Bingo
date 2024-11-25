@@ -4,26 +4,24 @@
 }
 
 body {
-    background-color: #FDAAAF;
     text-align: center;
 }
 
 h1 {
     text-align: center;
     font-size: 50px;
-    color: black;
+    transition: inherit;
 }
 
 #bingoBoard {
     height: min(75vh, 75vw);
     width: min(75vh, 75vw);
-    background-color: white;
-    border: black solid 5px;
     margin-left: auto;
     margin-right: auto;
     display: grid;
     grid-template-columns: 20% 20% 20% 20% 20%;
     grid-template-rows: 20% 20% 20% 20% 20%;
+    transition: inherit;
 }
 
 .bingoSquare {
@@ -31,26 +29,36 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: inherit;
 }
 
 .bingoText {
     text-align: center;
 }
 
-.active {
-    background-color: greenyellow;
-}
-
 .utilBtn {
-    background-color: white;
     margin-top: 1vh;
     font-size: 20px;
+    transition: inherit;
+}
+
+#themeToggleBtn {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: min(4vh, 4vw);
+    width: min(4vh, 4vw);
+    background-size: contain;
+}
+
+.themeTransition {
+    transition: all 0.5s;
 }
 
 @font-face {
     font-family: "First Coffee";
-    src: url("font/First Coffee.otf") format("otf"),
-        url("font/First Coffee.ttf") format("truetype");
+    src: url("../font/First Coffee.otf") format("otf"),
+        url("../font/First Coffee.ttf") format("truetype");
     font-weight: normal;
     font-style: normal;
 }

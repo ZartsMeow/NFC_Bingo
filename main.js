@@ -96,6 +96,19 @@ function loadBoard() {
     }
 }
 
+function toggleTheme() {
+    let stylesheet = document.getElementById("styleTheme");
+    document.body.classList.add("themeTransition");
+    if (stylesheet.getAttribute("href") == "style/nwero.css") {
+        stylesheet.setAttribute("href", "style/eliv.css");
+    } else {
+        stylesheet.setAttribute("href", "style/nwero.css");
+    }
+    setTimeout(function() {
+        document.body.classList.remove("themeTransition");
+    }, 500);
+}
+
 function randomInt(n) {
     return Math.floor(Math.random()*n);
 }
