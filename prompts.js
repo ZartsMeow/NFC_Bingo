@@ -11,7 +11,6 @@ const promptList = [
     "Vovgus & Phobi flirting",
     "\"I miss my wife\"",
     "Shrimp insults Cris",
-    "Actually serious",
     "Narwhal karaoke",
     "Shad dropping wisdom",
     "Jocose being a cute bf",
@@ -31,7 +30,7 @@ const promptList = [
     "Jerry Six Simp",
     "Jerry xkcd comic",
     "Axo & Bee Flirting",
-    "\"I'm hungry, Hi hungry\"" joke,
+    "\"I'm hungry, Hi hungry\" joke",
     
     
 ];
