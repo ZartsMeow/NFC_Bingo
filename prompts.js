@@ -31,7 +31,9 @@ const promptList = [
     "Jerry xkcd comic",
     "Axo & Bee Flirting",
     "\"I'm hungry, Hi hungry\" joke",
-    
+    "British slander",
+    "Meowz insulting ppl",
+    "Cooking \(project making\)"
     
 ];
 const freeList = [
